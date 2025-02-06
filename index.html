@@ -16,18 +16,20 @@
     <main>
         <section>
             <article id="post-principal">
-                <p>opinião</p>
-                <h2>Como é ser um desenvolvedor</h2>
-                <p>By Fabio Tetsuo</p>
+                <div id="texto-imagem">
+                    <p>opinião</p>
+                    <h2 id="texto-post-principal">Como é ser um desenvolvedor</h2>
+                    <p>By Fabio Tetsuo</p>
+                </div>
              </article>
 
              <div id="titulo-posts-recentes">
                 <h3>Posts mais recentes</h3>
-                <p>Ver todos</p>
+                <p id="ver-todos">Ver todos</p>
              </div>
 
              <article class="posts-recentes">
-                <div>
+                <div class="post">
                     <img src="./imagens/celuar.png" alt="Sem imagem de celular">
                     <p>desenvolvimento</p>
                     <h3>Desenvolvimento mobile</h3>
@@ -36,9 +38,7 @@
                     <p>22 Agosto 2022</p> 
                 </div>
                 
-             </article>
-            <article class="posts-recentes">
-                <div>
+                <div class="post">
                     <img src="./imagens/filmagem.png" alt="Sem imagem de filmagem">
                     <p>saude</p>
                     <h3>Balancear vida profissional e pessoal</h3>
@@ -46,11 +46,8 @@
                     <p>Lorem ipsum dolor sit amet consectetur. Et consectetur at consectetur sed nisl tempor.</p>
                     <p>22 Agosto 2022</p>
                 </div>
-                
-            </article>
             
-            <article class="posts-recentes">
-                <div>
+                <div class="post">
                     <img src="./imagens/computador.png" alt="Sem imagem de computador">
                     <p>desenvolvimento</p>
                     <h3>Configurando VSCode</h3>
@@ -59,9 +56,7 @@
                     <p>22 Agosto 2022</p> 
                 </div>
                 
-            </article>
-            <article class="posts-recentes">
-                <div>
+                <div class="post">
                     <img src="./imagens/programador.png" alt="Sem imagem de programador">
                     <p>produtividade</p>
                     <h3>2 monitores ou 1 ultrawide?</h3>
@@ -80,8 +75,8 @@
             <div class="posts-populares">
                 <img src="./imagens/programadora.png" alt="Programadora">
                 <div>
-                    <p>Desenvolvimento atual</p>
-                    <p>22 de agosto de 2022</p>  
+                    <p class="titulo-posts-populares"><b>Desenvolvimento atual</b></p>
+                    <p class="data-posts-populares">22 Agosto 2022</p>  
                 </div>
                 
             </div>
@@ -89,8 +84,8 @@
             <div class="posts-populares">
                 <img src="./imagens/gitlab.png" alt="GitLab">
                 <div>
-                    <p>GitLab vs GitHub</p>
-                    <p>22 de agosto de 2022</p> 
+                    <p class="titulo-posts-populares"><b>GitLab vs GitHub</b></p>
+                    <p class="data-posts-populares">22 Agosto 2022</p> 
                 </div>
                 
             </div>
@@ -98,20 +93,31 @@
             <div class="posts-populares">
                 <img src="./imagens/cafe-e-computador.png" alt="Cafe e computador">
                 <div>
-                    <p>Café atrapalha?</p>
-                    <p>22 de agosto de 2022</p>  
+                    <p class="titulo-posts-populares"><b>Café atrapalha?</b></p>
+                    <p class="data-posts-populares">22 Agosto 2022</p>  
                 </div>
                 
             </div>
             
             <h3>Categorias</h3>
-
-            <ul>
-                <li>saude</li>
-                <li>desenvolvimento</li>
-                <li>produtividade</li>
-                <li>opniao</li>
-            </ul>
+            <div id="categorias">
+                <div class="item">
+                   <div class="item-lista">> saude<div class="alinhar-fim">(1)</div>
+                   </div> 
+                </div>
+                <div class="item">
+                    <div class="item-lista">> desenvolvimento<div class="alinhar-fim">(2)</div>
+                    </div> 
+                 </div>
+                 <div class="item">
+                    <div class="item-lista">> produtividade<div class="alinhar-fim">(2)</div>
+                    </div> 
+                 </div>
+                 <div class="item">
+                    <div class="item-lista">> opniao<div class="alinhar-fim">(1)</div>
+                    </div> 
+                 </div>
+            </div>
         </aside>
     </main>
     <footer>
