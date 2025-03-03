@@ -3,7 +3,7 @@ html{
     width: 100%;
     height: 100%;
     box-sizing: border-box;
-    font-size: 16px;
+    font-size: 1rem;
 }
 body{
     margin: 0;
@@ -146,9 +146,19 @@ aside>div>div>p{
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
     main{
         display: inline;
-        margin: 1rem 0.5rem;
+        margin: 1rem .5rem;
     }
     #post-principal{
+        margin: auto;
+    }
+    #titulo-posts-recentes{
+        width: 46.5rem;
+        margin: 1.5rem auto;
+        padding-left: .5rem;
+    }
+    .posts-recentes{
+        width: 46.5rem;
+        justify-items: center;
         margin: auto;
     }
     .posts-populares{
