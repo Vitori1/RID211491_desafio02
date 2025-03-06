@@ -143,7 +143,7 @@ aside>h3{
 aside>div>div>p{
     padding: 0 .5rem;
 }
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media only screen and (min-width: 768px) and (max-width: 1268px) {
     main{
         display: inline;
         margin: 1rem .5rem;
