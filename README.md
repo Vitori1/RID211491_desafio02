@@ -39,13 +39,13 @@ Bem-vindo ao **The Dev News**, um site estático que simula um blog sobre desenv
 
 
 
--**index.html** # Arquivo principal HTML
+- **index.html** # Arquivo principal HTML
 
--**styles.css** # Estilos personalizados
+- **styles.css** # Estilos personalizados
 
--**imagens/** # Imagens utilizadas nos posts
+- **imagens/** # Imagens utilizadas nos posts
 
--**README.md** # Documentação do projeto
+- **README.md** # Documentação do projeto
 
 
 
